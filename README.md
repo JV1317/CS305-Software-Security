@@ -10,13 +10,18 @@
 <p> The vulnerability assessment tool is an extremely beneficial tool as it will help to indicate vulnerabilities and dependencies within your application previously found by others and can help provide information on how to resolve them. I did not find the tool difficult to use but I do think it has some issues that need to be addressed. For example when attempting to suppress vulnerabilities I encountered several that were unable to be suppressed, even after adding them to the suppression file in the same manner as the others. </p>
 
 ### How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
-<p> </p>
+<p> We added layers of security to the application by first generating certificates for the application using the Java Keytool and by enabling the use of HTTPS. This allows for secure communication as well as providing authentication to our users so they can be sure they are using the authentic site an not an imposter. We then implemented a hashing function and ensured it was working correctly with the use of a check sum. The hash function will allow us to hash information and with the use of SHA-256 the possibility of collision is nearly impossible. 
+
+Finally we insured that we introduced no new vulnerabilities into the system when we refactored our code. By using the most recent version of the OWASP maven dependency check we were able to confirm that after our code was refactored no new vulnerabilities were introduced. Ensuring that all dependencies and vulnerabilities are addressed will help provide security to the application. 
+  
+In the Future I plan to utilize dependancy check tools that are availabe like the OWASP dependency check tool we utilized in this class. I will then use the CVE database to investigate and find the best plan to mitigate any vulnerabilities that are found. 
+ </p>
 
 ### How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
-<p></p>
+<p>To ensure that the application was functional and secure I performed static and dynamic testing looking for any errors or new vulnerabilities that would have appeared after I refactored the code. To make sure there were no new vulnerabilities introduced I performed a static dependency check before I refactored the code. Once the code was refactored and the serverController class was added utilizing the check sum and hash functions, I ran another dependency check and compared the results from the two files.  </p>
 
 ### What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
-<p> </p>
+<p> The Maven dependency check tool paired with the national vulnerabilities database proved to be extemly useful tools for identifying and mitigating vulnerabilities within our program and I plan on utilizing both these tools in the future.  </p>
 
 ### Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
 <p> </p>
