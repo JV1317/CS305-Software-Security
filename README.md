@@ -1,10 +1,10 @@
 # CS305-Software-Security
 
 ### Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
-<p> </p>
+<p> Artemis Financial is a financial consulting company that handles sensitive information regarding their customers. They have hired Global Rain to analyze and address security vulnerabilities with their online application. It is imperative that secure communications be used when transmitting information across the network as well as storing that information in a secure way to ensure that information is not intercepted or accessed by others with malicious intent. Secure communication means that the company is using the necessary protocols and interfaces to send and receive data between the client and server.</p>
 
 ### What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
-<p> </p>
+<p> I think I did a very good job of analyzing and identifying security vulnerabilities within the client’s software and recommending and implementing the appropriate fixes to address those vulnerabilities. Secure coding ensures that you are not exposing the application and therefor the company to vulnerabilities that can be leveraged to access the application or sensitive data within the system. By following the industries best practices and guidelines with respects to software security you are ensuring that your system and its data remain secure. </p>
 
 ### What part of the vulnerability assessment was challenging or helpful to you?
 <p> </p>
