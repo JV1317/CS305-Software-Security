@@ -24,4 +24,4 @@ In the Future I plan to utilize dependancy check tools that are availabe like th
 <p> The Maven dependency check tool paired with the national vulnerabilities database proved to be extemly useful tools for identifying and mitigating vulnerabilities within our program and I plan on utilizing both these tools in the future.  </p>
 
 ### Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
-<p> </p>
+<p> What I would like to show future employers from this assignment is the knowledge and skill required to use the tools available to develop an application with security in mind. Knowing how to find vulnerabilities and research to determine a method to mitigate those vulnerabilities is an especially useful skill that I believe would be relevant in the workplace. I think I would also like to highlight the knowledge of how certificates work and how to generate and apply them to an application as these are skills that will be very much relevant in the real world. </p>
